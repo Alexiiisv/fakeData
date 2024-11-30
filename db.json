@@ -1,77 +1,234 @@
 {
     "artistes": [
-        {
-            "id": "1",
-            "name": "Taylor Swift",
-            "genres": ["Pop", "Country"],
-            "popularity": 95,
-            "createdAt": "2023-11-30T00:00:00Z"
-          },
-          {
-            "id": "2",
-            "name": "The Weeknd",
-            "genres": ["R&B", "Pop"],
-            "popularity": 92,
-            "createdAt": "2023-11-29T00:00:00Z"
-          }
-          
-          
-        ],
-        "albums": [
-            {
-                "id": "1",
-                "title": "1989",
-                "artistId": "1",
-                "releaseDate": "2014-10-27",
-                "genre": "Pop",
-                "numberOfTracks": 13,
-                "createdAt": "2023-11-30T00:00:00Z"
-              },
-              {
-                "id": "2",
-                "title": "After Hours",
-                "artistId": "2",
-                "releaseDate": "2020-03-20",
-                "genre": "R&B",
-                "numberOfTracks": 14,
-                "createdAt": "2023-11-30T00:00:00Z"
-              }
-              
-        ],
-        "musiques": [
-            {
-                "id": "1",
-                "title": "Blank Space",
-                "artistId": "1",
-                "albumId": "1",
-                "duration": 231,
-                "popularity": 98,
-                "genre": "Pop",
-                "releaseDate": "2014-10-27",
-                "createdAt": "2023-11-30T00:00:00Z"
-              },
-              {
-                "id": "2",
-                "title": "Blinding Lights",
-                "artistId": "2",
-                "albumId": "2",
-                "duration": 200,
-                "popularity": 100,
-                "genre": "R&B",
-                "releaseDate": "2020-03-20",
-                "createdAt": "2023-11-30T00:00:00Z"
-              }
-              
-        ],
-        "playlists": [
-            {
-                "id": "1",
-                "name": "Top Pop Hits",
-                "description": "A collection of the most popular pop songs.",
-                "numberOfTracks": 2,
-                "tracks": ["1", "2"],
-                "createdAt": "2023-11-30T00:00:00Z"
-              }
-              
-        ]
-}
+      {
+        "id": "1",
+        "name": "Taylor Swift",
+        "genres": ["Pop", "Country"],
+        "popularity": 95,
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "2",
+        "name": "The Weeknd",
+        "genres": ["R&B", "Pop"],
+        "popularity": 92,
+        "createdAt": "2023-11-29T00:00:00Z"
+      },
+      {
+        "id": "3",
+        "name": "Drake",
+        "genres": ["Hip-Hop", "Rap"],
+        "popularity": 90,
+        "createdAt": "2023-11-28T00:00:00Z"
+      },
+      {
+        "id": "4",
+        "name": "Beyoncé",
+        "genres": ["R&B", "Pop"],
+        "popularity": 97,
+        "createdAt": "2023-11-27T00:00:00Z"
+      },
+      {
+        "id": "5",
+        "name": "Ed Sheeran",
+        "genres": ["Pop", "Folk"],
+        "popularity": 94,
+        "createdAt": "2023-11-26T00:00:00Z"
+      },
+      {
+        "id": "6",
+        "name": "Adele",
+        "genres": ["Pop", "Soul"],
+        "popularity": 96,
+        "createdAt": "2023-11-25T00:00:00Z"
+      },
+      {
+        "id": "7",
+        "name": "Billie Eilish",
+        "genres": ["Pop", "Alternative"],
+        "popularity": 93,
+        "createdAt": "2023-11-24T00:00:00Z"
+      },
+      {
+        "id": "8",
+        "name": "Coldplay",
+        "genres": ["Alternative", "Rock"],
+        "popularity": 91,
+        "createdAt": "2023-11-23T00:00:00Z"
+      },
+      {
+        "id": "9",
+        "name": "Bad Bunny",
+        "genres": ["Reggaeton", "Latin"],
+        "popularity": 89,
+        "createdAt": "2023-11-22T00:00:00Z"
+      },
+      {
+        "id": "10",
+        "name": "Lady Gaga",
+        "genres": ["Pop", "Dance"],
+        "popularity": 88,
+        "createdAt": "2023-11-21T00:00:00Z"
+      }
+    ],
+    "albums": [
+      {
+        "id": "1",
+        "title": "1989",
+        "artistId": "1",
+        "releaseDate": "2014-10-27",
+        "genre": "Pop",
+        "numberOfTracks": 13,
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "2",
+        "title": "After Hours",
+        "artistId": "2",
+        "releaseDate": "2020-03-20",
+        "genre": "R&B",
+        "numberOfTracks": 14,
+        "createdAt": "2023-11-29T00:00:00Z"
+      },
+      {
+        "id": "3",
+        "title": "Scorpion",
+        "artistId": "3",
+        "releaseDate": "2018-06-29",
+        "genre": "Hip-Hop",
+        "numberOfTracks": 25,
+        "createdAt": "2023-11-28T00:00:00Z"
+      },
+      {
+        "id": "4",
+        "title": "Lemonade",
+        "artistId": "4",
+        "releaseDate": "2016-04-23",
+        "genre": "R&B",
+        "numberOfTracks": 12,
+        "createdAt": "2023-11-27T00:00:00Z"
+      },
+      {
+        "id": "5",
+        "title": "Divide",
+        "artistId": "5",
+        "releaseDate": "2017-03-03",
+        "genre": "Pop",
+        "numberOfTracks": 16,
+        "createdAt": "2023-11-26T00:00:00Z"
+      },
+      {
+        "id": "6",
+        "title": "25",
+        "artistId": "6",
+        "releaseDate": "2015-11-20",
+        "genre": "Soul",
+        "numberOfTracks": 11,
+        "createdAt": "2023-11-25T00:00:00Z"
+      },
+      {
+        "id": "7",
+        "title": "Happier Than Ever",
+        "artistId": "7",
+        "releaseDate": "2021-07-30",
+        "genre": "Alternative",
+        "numberOfTracks": 16,
+        "createdAt": "2023-11-24T00:00:00Z"
+      },
+      {
+        "id": "8",
+        "title": "A Head Full of Dreams",
+        "artistId": "8",
+        "releaseDate": "2015-12-04",
+        "genre": "Alternative",
+        "numberOfTracks": 11,
+        "createdAt": "2023-11-23T00:00:00Z"
+      },
+      {
+        "id": "9",
+        "title": "YHLQMDLG",
+        "artistId": "9",
+        "releaseDate": "2020-02-29",
+        "genre": "Reggaeton",
+        "numberOfTracks": 20,
+        "createdAt": "2023-11-22T00:00:00Z"
+      },
+      {
+        "id": "10",
+        "title": "Chromatica",
+        "artistId": "10",
+        "releaseDate": "2020-05-29",
+        "genre": "Dance",
+        "numberOfTracks": 16,
+        "createdAt": "2023-11-21T00:00:00Z"
+      }
+    ],
+    "musiques": [
+      {
+        "id": "1",
+        "title": "Blank Space",
+        "artistId": "1",
+        "albumId": "1",
+        "duration": 231,
+        "popularity": 98,
+        "genre": "Pop",
+        "releaseDate": "2014-10-27",
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "2",
+        "title": "Blinding Lights",
+        "artistId": "2",
+        "albumId": "2",
+        "duration": 200,
+        "popularity": 100,
+        "genre": "R&B",
+        "releaseDate": "2020-03-20",
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "3",
+        "title": "God's Plan",
+        "artistId": "3",
+        "albumId": "3",
+        "duration": 198,
+        "popularity": 95,
+        "genre": "Hip-Hop",
+        "releaseDate": "2018-06-29",
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "4",
+        "title": "Halo",
+        "artistId": "4",
+        "albumId": "4",
+        "duration": 261,
+        "popularity": 97,
+        "genre": "R&B",
+        "releaseDate": "2016-04-23",
+        "createdAt": "2023-11-30T00:00:00Z"
+      },
+      {
+        "id": "5",
+        "title": "Shape of You",
+        "artistId": "5",
+        "albumId": "5",
+        "duration": 233,
+        "popularity": 96,
+        "genre": "Pop",
+        "releaseDate": "2017-03-03",
+        "createdAt": "2023-11-30T00:00:00Z"
+      }
+    ],
+    "playlists": [
+      {
+        "id": "1",
+        "name": "Top Pop Hits",
+        "description": "A collection of the most popular pop songs.",
+        "numberOfTracks": 5,
+        "tracks": ["1", "2", "3", "4", "5"],
+        "createdAt": "2023-11-30T00:00:00Z"
+      }
+    ]
+  }
+  
